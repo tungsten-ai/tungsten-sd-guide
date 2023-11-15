@@ -1,0 +1,23 @@
+site_name: Tungsten Stable Diffusion Guide
+theme:
+  name: material
+  logo: images/favicon.ico
+  favicon: images/favicon.ico
+  palette:
+    - scheme: tungsten
+  icon:
+    repo: fontawesome/brands/github
+repo_name: tungsten-ai/tungsten-sd
+repo_url: https://github.com/tungsten-ai/tungsten-sd
+
+markdown_extensions: 
+  - attr_list
+  - md_in_html
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/tungsten-ai/tungsten-sd
+
+extra_css:
+  - css/scheme.css
